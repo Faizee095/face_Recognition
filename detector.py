@@ -19,6 +19,8 @@ while True:
         if(conf >50):
             if(Id==1):
                 Id="FAIZEE"
+            elif(Id==2):
+                Id="Jennefier"
         else:
             Id="Unknown"
         cv2.putText(im,str(Id), (x,y+h),font,2,(255,255,255) )
